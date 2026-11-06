@@ -13,9 +13,36 @@ html, body {
     font-style: normal;
   }
 
+.textbold{
+    font-weight: bold;
+}
+
 .navbarstyle{
     background: #5d729e;
 }
+
+/*about*/
+
+.container{
+    
+    display: flexbox;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 2rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.bg{
+    width: 3fr;
+    justify-content: center;
+    margin: auto;
+
+    background-color: #2c65b4;
+    width: 70%;
+    border-radius: 40px;
+}
+
 
 /*grid style*/
 
